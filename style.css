@@ -1,0 +1,92 @@
+body {
+    background: #363849;
+    color: rgb(98, 114, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(68, 71, 91);
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+a .fa-facebook, a:visited{
+    color: #FEFEF8;
+    font-size: 2rem;
+}
+a .fa-linkedin, a:visited{
+    font-size: 2rem;
+}
+a .fa-twitter-square, a:visited{
+    color: #FEFEF8;
+    font-size: 2rem;
+}
+a .fa-github, a:visited{
+    font-size: 2rem;
+}
+.navigation li{
+    display: block;
+    padding: 10px 0px;
+}
+
+.wrapper {
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+ul {
+    list-style: none;
+}
+main{
+    margin-left: 22%;
+    height: 100%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+            "reddit history github"
+            "reddit clock github";
+    grid-gap: 10px;
+}
+h1 {
+    color: #87E1F5;
+}
+article {
+    border-left: #45485C solid 2px;
+    padding-left: 5px;
+    color: #FEFEF8;
+}
+.yellow-text {
+    color: #F0F88C;
+}
+.pink-text {
+    color: #ED75C5;
+}
+.reddit{
+    grid-area: reddit;
+    overflow: hidden;
+}
+
+.history {
+    grid-area: history;
+}
+.clock {
+    grid-area: clock;
+    text-align: center;
+    font-size: 2rem;
+    justify-self: center;
+    align-self: center;
+
+}
+.github {
+    grid-area: github;
+}

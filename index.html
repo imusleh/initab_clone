@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Initab</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   
+        <nav>
+            <ul class="navigation">
+                <li><i class="fas fa-wrench" style="background: rgb(125, 230, 253); padding: 2px;"></i> <span style="color: rgb(125, 230, 253);">SETTINGS</span></li>
+                <li><i class="fas fa-code" style="background: rgb(100, 247, 112); padding: 2px;"></i> <span style="color: rgb(100, 247, 112);">GISTS</span></li>
+                <li><i class="fab fa-stack-overflow" style="background: rgb(247, 194, 129); padding: 2px;"></i> <span style="color: rgb(247, 194, 129);">STACK OVERFLOW</span></li>
+                <li><i class="fas fa-chart-line" style="background:  rgb(223, 121, 192); padding: 2px;"></i> <span style="color: rgb(223, 121, 192);">TRENDING</span></li>
+                <li><i class="fas fa-pencil-alt" style="background: rgb(170, 128, 233); padding: 2px;"></i> <span style="color: rgb(170, 128, 233);">SCRATCHPAD</span></li>
+                <li><i class="far fa-lightbulb" style="background: rgb(250, 250, 246); padding: 2px;"></i> <span style="color: rgb(250, 250, 246);">PLAYGROUND</span> <i class="fas fa-lock" style="color: #F8F8F2; padding: 2px;"></i></li>
+                <li><i class="fas fa-question" style="background: rgb(245, 239, 178); padding: 2px;"></i> <span style="color: rgb(245, 239, 178);">HELP/INTRO</span></li>
+            </ul>
+            <div class="wrapper">
+            <figure>
+            <img src="initab_logo_white.png" alt="logo">
+            </figure>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://github.com/imusleh" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+            </div>
+        </nav>
+        <body onload="startTime(); startDate()">
+        <main>
+            <section class="clock">
+                <span id="time"></span>
+                <br>
+                <span id="date"></span>
+            </section>
+            <section class="history">
+                <h1><i class="far fa-clock"></i> RELEVANT JAVASCRIPT HISTORY</h1>
+                <p>JavaScript: What the heck is a Callback? - codeburst</p>
+                <p> JavaScrip | MDN</p>
+            </section>
+            <section class="reddit">
+                <h1><i class="fab fa-reddit-alien"></i> POPULAR ON R/JAVASCRIPT</h1>
+                <article>
+                    <p>The revolutionary project management tool is here and it's visual. Start Your Free Trial Now.</p>
+                    <p class="yellow-text">Start Free Trial</p>
+                    <p class="pink-text">Sponsored by monday</p>
+                </article>
+                <article>
+                    <p>Turn your existing site into PWA with this JS library.</p>
+                    <p class="yellow-text">Posted by: u/jfadev</p>
+                    <a href="#" class="pink-text">Link to Comments</a>
+                </article>
+                <article>
+                    <p>Autoslap - a Node CLI tool that automatically installs and configures ESLint, Prettier, Husky and lint-staged</p>
+                    <p class="yellow-text">Posted by: u/paolostyle</p>
+                    <a href="#" class="pink-text">Link to Comments</a>
+                </article>
+                <article>
+                    <p>[UPDATE] React-Formik-Ui v3 released. Improved sytling, Dropzone, and PhoneInput components</p>
+                    <p class="yellow-text">Posted by: u/kaithotz</p>
+                    <a href="#" class="pink-text">Link to Comments</a>
+                </article>
+            </section>
+            <section class="github">
+                <h1><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h1>
+                <p class="yellow-text">Issue #5354</p>
+                <p>Server-side only method ensure server-only code is never sent to the browser</p>
+            </section>
+        </main>
+        <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
