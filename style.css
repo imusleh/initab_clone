@@ -73,9 +73,14 @@ article {
 }
 .reddit{
     grid-area: reddit;
-    overflow: hidden;
+    width: 400px;
+    height: 900px;
+    overflow-x: hidden; 
+    overflow-y: scroll;
 }
-
+.reddit::-webkit-scrollbar { 
+    display: none; 
+} 
 .history {
     grid-area: history;
 }
